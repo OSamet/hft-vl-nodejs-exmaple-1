@@ -5,8 +5,13 @@
 </head>
 <body class="container">
   <div>
-    <h1>This is great</h1>
+    <h1><%= title %></h1>
     <p>Welcome to templating using EJS</p>
+    <ul>
+        <% data.forEach(function(d) { %>
+            <li><%= d %></li>
+        <% }); %>
+    </ul>
     <p>Checkout the <a href="/about">About page!</a></p>
   </div>
 
