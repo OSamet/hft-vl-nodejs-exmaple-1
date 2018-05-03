@@ -1,6 +1,6 @@
-#Express HTML Example
+# Express HTML Example
 
-##Dependecies
+## Dependecies
 * `nodemon` needs to be installed globally
 
 ## Scripts
